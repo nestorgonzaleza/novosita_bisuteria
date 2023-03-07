@@ -171,7 +171,7 @@
 /*Categorías*/
 
 .borde_titulo {
-    border-top: 1px      rgba(165, 42, 42);
+    border-top: 1px solid rgba(165, 42, 42);
     border-bottom: 1px solid rgba(165, 42, 42);
     
 }
