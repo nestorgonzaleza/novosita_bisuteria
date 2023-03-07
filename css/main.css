@@ -4,7 +4,7 @@
 
 .seccionPrincipal {
     height: 80vh;
-    background-image: url(/img/portada.jpg);
+    background-image: url(../img/portada.jpg);
     background-size: cover;
 }
 
@@ -23,7 +23,7 @@
 
 /* CATÁLOGO CATEGORÍAS */
 .indice__productos {
-    background-image: url(/img/fondo_catalogo1.webp);
+    background-image: url(./img/fondo_catalogo1.webp);
     background-size: cover;
     width: 100%;
     display: grid;
@@ -123,7 +123,7 @@
 }
 
 .quienes1 {
-    background-image: url(/img/michicho_H.jfif);
+    background-image: url(./img/michicho_H.jfif);
     background-size: cover;
     width: 100%;
     
