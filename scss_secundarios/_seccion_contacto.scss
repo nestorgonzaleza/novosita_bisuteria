@@ -1,0 +1,24 @@
+.contacto {
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-template-areas: "c1 c2";
+
+    .contacto_info {
+        height: 80vh;
+        grid-area: c1;
+        background-color: $color3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .contacto_form {
+        grid-area: c2;
+        padding: 30px;
+    }
+}
+
+
+

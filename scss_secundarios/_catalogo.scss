@@ -1,0 +1,63 @@
+.titulo_productos {
+    background-color: $color1;
+    color: #3b3a3a;
+    display: flex;
+    justify-content: center;
+}
+
+.indice__productos {
+    background-image: url(../img/fondo_catalogo1.webp);
+    background-size: cover;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "c_an c_ar c_co c_pu";
+
+    .grilla_celda {
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-left: 15%;
+        padding-right: 15%;
+        display: flex;
+        justify-content: center;
+        
+        .card:hover {
+            transform: scale(1.05);
+        }
+    
+    }
+
+}
+
+.card_anillos {
+    grid-area: c_an;
+    width: 100%;
+}
+
+.card_aros {
+    grid-area: c_ar;
+    width: 100%;
+}
+
+.card_collares {
+    grid-area: c_co;
+    width: 100%;
+}
+
+.card_pulseras {
+    grid-area: c_pu;
+    width: 100%;
+}
+
+.btn_catalogo {
+    background-color: $color1;
+    border-color: $color1;
+
+    &:hover {
+        background-color: $color2;
+        border-color: $color2;
+    }
+
+}
+

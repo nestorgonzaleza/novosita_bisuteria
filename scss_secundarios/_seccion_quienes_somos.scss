@@ -1,0 +1,34 @@
+.img__carrusel {
+    height: 80vh;
+}
+
+.quienessomos_grid {
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-template-areas: "q1 q2";
+
+    .quienes1 {
+        background-image: url(../img/michicho_H.jfif);
+        background-size: cover;
+        width: 100%;
+        grid-area: q1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .p_quienes {
+            text-align: center;
+        }
+    }
+
+    .quienes2 {
+        grid-area: q2;
+        width: 100%;
+    }
+}
+
+
+
+
+

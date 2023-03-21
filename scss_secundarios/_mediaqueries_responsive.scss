@@ -1,0 +1,45 @@
+@media screen and (max-width:768px) {
+    .indice__productos {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "c_an c_ar" 
+    "c_co c_pu";
+    }
+
+    .piePagina {
+        flex-direction: column;
+    }
+
+    .quienessomos_grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .quienes1 {
+        height: 80vh;
+    }
+
+    .contacto {
+        grid-column: 1fr;
+        grid-template-areas: "c2" "c1";
+    }
+}
+
+@media screen and (max-width:576px) {
+    .indice__productos {
+    
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-areas: 
+    "c_an"
+    "c_ar" 
+    "c_co"
+    "c_pu";
+    }
+
+    .link_footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
