@@ -1,0 +1,50 @@
+.talleres {
+    background-image: url(../img/taller/taller2.jpg);
+    background-size: cover;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "t_izq .";
+
+    .t1{
+        background-color: $color4;
+        grid-area: t_izq;
+        display: grid;
+        grid-template-areas: "tal1"
+        "tal2";
+        text-align: center;
+        
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .taller_1 {
+            grid-area: tal1;
+            border-bottom: 3px solid white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            h4 {
+                color: white;
+            }
+            p {
+                color: white;
+            }            
+            
+        }
+
+        .taller_2 {
+            grid-area: tal2;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h4 {
+                color: white;
+            }
+            p {
+                color: white;
+            } 
+        }
+    }
+}

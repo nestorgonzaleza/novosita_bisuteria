@@ -39,4 +39,9 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .talleres {
+        grid-template-columns: 1fr ;
+        grid-template-areas: "t_izq";
+    }
 }
