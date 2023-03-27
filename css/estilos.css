@@ -1,3 +1,7 @@
+.active_dd {
+  background-color: rgb(248, 211, 217);
+}
+
 .seccionPrincipal {
   height: 80vh;
   background-image: url(../img/portada.jpg);
@@ -74,6 +78,10 @@
   justify-content: space-between;
   align-items: center;
 }
+.piePagina a {
+  text-decoration: none;
+  color: rgb(83, 80, 80);
+}
 .piePagina .redes_sociales {
   display: flex;
   flex-direction: column;
@@ -104,6 +112,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 .contacto .contacto_form {
   grid-area: c2;
@@ -112,11 +121,11 @@
 
 .img__carrusel {
   height: 80vh;
+  width: 50%;
 }
 
 .quienessomos_grid {
   display: grid;
-  grid-column: 1fr 1fr;
   grid-template-areas: "q1 q2";
 }
 .quienessomos_grid .quienes1 {
@@ -126,15 +135,29 @@
   grid-area: q1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
-.quienessomos_grid .quienes1 .p_quienes {
-  text-align: center;
+.quienessomos_grid .quienes1 .tarjeta {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .quienessomos_grid .quienes2 {
   grid-area: q2;
   width: 100%;
+  height: 577.28px;
+}
+
+.texto_tarjeta {
+  display: flex;
+  justify-content: space-between;
+}
+.texto_tarjeta .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .borde_titulo {
@@ -149,6 +172,11 @@
   align-items: center;
 }
 
+.card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 @media screen and (max-width: 768px) {
   .indice__productos {
     display: grid;
@@ -161,9 +189,6 @@
   .quienessomos_grid {
     display: flex;
     flex-direction: column;
-  }
-  .quienes1 {
-    height: 80vh;
   }
   .contacto {
     grid-column: 1fr;
